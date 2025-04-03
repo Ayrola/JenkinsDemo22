@@ -5,7 +5,7 @@ pipeline {
         stage("Checkout code") {
             //checkout the repository
             steps {
-                git branch: 'main', url: 'https://github.com/Ayrola/JenkinsSeleniumIdeDemoRepo_7_30'
+                git branch: 'main', url: 'https://github.com/Ayrola/JenkinsDemo22'
             }
         }
 
